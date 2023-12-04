@@ -1,7 +1,7 @@
 import openai
 
 def generate_quiz(subject, difficulty):
-    api_key = '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'
+    api_key = 'API-KEY'
     openai.api_key = api_key
     prompt = f"Generate {difficulty} difficulty level quiz questions on {subject}."
 
